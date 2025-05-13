@@ -1,0 +1,113 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+      max-width: 420px;
+      width: 90%;
+      margin: 80px auto 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .logo {
+      max-width: 160px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+      color: #00796b;
+      font-size: 1.6em;
+    }
+
+    label {
+      font-size: 16px;
+      color: #37474f;
+      text-align: left;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border: 2px solid #b2dfdb;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      transition: border-color 0.3s;
+    }
+
+    input:focus {
+      border-color: #00796b;
+      outline: none;
+    }
+
+    .output-group {
+      background-color: #f1f8e9;
+      padding: 15px 20px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      text-align: left;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .output-label {
+      font-weight: 500;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    output {
+      font-weight: bold;
+      color: #00796b;
+      font-size: 18px;
+      display: block;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #009688;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #00695c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 16px 10px;
+      font-size: 14px;
+      color: #666;
+      background-color: #eeeeee;
+      border-top: 1px solid #ccc;
+      margin-top: auto;
+    }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<meta charset="utf-8"/>
+<title>Clearance Calculator</title>
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<div class="container">
+<!-- ปุ่มย้อนกลับ -->
+<a class="back-button" href="index.html" title="กลับหน้าแรก">◀ </a>
+<!-- โลโก้ -->
+<img alt="Koken (Thailand) Logo" class="logo" src="kkt-01.png"/>
+<h2>Clearance CALCULATOR</h2>
+<label for="thickness">กรอกความหนา Material (mm):</label>
+<input id="thickness" oninput="calculateClearance()" placeholder="เช่น 0.8" step="0.01" type="number"/>
+<div class="output-group">
+<div class="output-label">Clearance (mm) ฝั่งเดียว:</div>
+<output id="clearanceResult">-</output>
+</div>
+<div class="output-group">
+<div class="output-label">Clearance × 2 (รอบตัว):</div>
+<output id="doubleResult">-</output>
+</div>
+<!-- รูปภาพด้านล่าง -->
+<div style="margin-top: 25px;">
+<img alt="Clearance Picture" src="clearance PICTURE.png" style="max-width: 100%; border-radius: 10px;"/>
+</div>
+</div>
+<footer>
+    © 2025 CALCULATOR. All rights reserved.<br/>
+    Development By M&amp;K
+  </footer>
+
+<script src="script.js"></script></body>
+</html>
